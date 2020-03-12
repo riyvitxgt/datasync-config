@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.1.12.123:1433;DatabaseName=JYDB_PROD
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 1234@abcd
+    hikari:
+      maximum-pool-size: 500
+      connection-timeout: 30000
